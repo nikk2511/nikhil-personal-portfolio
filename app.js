@@ -403,8 +403,10 @@ function handleFormSubmit(e) {
     message: message
   };
 
-  emailjs.send('service_ct568zs', 'siaykk4', templateParams)
-    .then(() => {
+  emailjs.send('service_ct568zs', 'siaykk4', templateParams, {
+    publicKey: 'Sa2txPczJacRNqUMN'
+  })
+    .then((response) => {
       status.style.color = "#10b981";
       status.innerHTML = "<i class='fa-solid fa-check-double'></i> Thank you! Your message was sent successfully to Nikhil.";
       document.getElementById("contact-form").reset();
@@ -417,6 +419,6 @@ function handleFormSubmit(e) {
     .catch((error) => {
       status.style.color = "#ef4444";
       status.innerHTML = "<i class='fa-solid fa-triangle-exclamation'></i> Failed to send message. Please try again or email directly.";
-      console.error("EmailJS Error:", error);
+      console.error("EmailJS Error Status:", error.status, "Error Text:", error.text);
     });
 }
