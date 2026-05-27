@@ -30,7 +30,7 @@ const chatResponses = {
   
   certs: `🏅 **Professional Certifications:**<br>• IBM Full-Stack Software Developer<br>• Postman API Fundamentals<br>• freeCodeCamp Responsive Web Design<br>• IBM DevOps and Software Engineering<br>• IBM Computer Science Fundamentals`,
   
-  fallback: `Thanks for asking! Nikhil specializes in Python, Next.js, TypeScript, FastAPI, and Advanced AI pipelines. <br><br>To discuss collaboration opportunities, feel free to use the contact form below or email him directly at **nikhilsingh.work25@gmail.com**.`
+  fallback: `Thanks for asking! Nikhil specializes in Python, Next.js, TypeScript, FastAPI, and Advanced AI pipelines. <br><br>To discuss collaboration opportunities, feel free to use the contact form below or email him directly at **imnik2511@gmail.com**.`
 };
 
 // Initial Setup on Load
