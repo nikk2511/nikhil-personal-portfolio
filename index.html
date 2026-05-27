@@ -24,56 +24,11 @@
   
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css">
-  
   <!-- EmailJS Integration -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script type="text/javascript">
      (function(){
-        emailjs.init("I want to integrate EmailJS into my portfolio contact form to send real emails. Please update my index.html and app.js files with the following changes:
-
-In index.html: Add the EmailJS script tags right before the closing </head> tag. Make sure to initialize it with my public key placeholder:
-
-HTML
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("I want to integrate EmailJS into my portfolio contact form to send real emails. Please update my index.html and app.js files with the following changes:
-
-In index.html: Add the EmailJS script tags right before the closing </head> tag. Make sure to initialize it with my public key placeholder:
-
-HTML
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("Sa2txPczJacRNqUMN");
-   })();
-</script>
-In app.js: Modify the handleFormSubmit(e) function. Replace the mock setTimeout simulation with a live emailjs.send() call using Service ID 'service_ct568zs' and Template ID 'siaykk4'.
-
-Make sure the templateParams object matches the variables inside my EmailJS dashboard template exactly (name, email, subject, message):
-
-JavaScript
-const templateParams = {
-  name: name,
-  email: email,
-  subject: subject,
-  message: message
-};
-Keep the current UI loading spinner state, green success text handler, form resetting logic, and add an error .catch() block to turn the status text red if the API network call fails.");
-   })();
-</script>
-In app.js: Modify the handleFormSubmit(e) function. Replace the mock setTimeout simulation with a live emailjs.send() call using Service ID 'service_ct568zs' and Template ID 'siaykk4'.
-
-Make sure the templateParams object matches the variables inside my EmailJS dashboard template exactly (name, email, subject, message):
-
-JavaScript
-const templateParams = {
-  name: name,
-  email: email,
-  subject: subject,
-  message: message
-};
-Keep the current UI loading spinner state, green success text handler, form resetting logic, and add an error .catch() block to turn the status text red if the API network call fails.");
+        emailjs.init("Sa2txPczJacRNqUMN");
      })();
   </script>
 </head>
