@@ -400,10 +400,11 @@ function handleFormSubmit(e) {
     name: name,
     email: email,
     subject: subject,
-    message: message
+    message: message,
+    time: new Date().toLocaleString()
   };
 
-  emailjs.send('service_ct568zs', 'siaykk4', templateParams, {
+  emailjs.send('service_ct568zs', 'template_hil9956', templateParams, {
     publicKey: 'Sa2txPczJacRNqUMN'
   })
     .then((response) => {
