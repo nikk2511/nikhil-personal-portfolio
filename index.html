@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil Singh | Full-Stack Developer & AI Engineer Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Nikhil Singh, showcasing B.Tech Computer Science journey and specialized expertise in LangChain, LangGraph, RAG, Fine-tuning, and Prompt/Context Engineering.">
+  <meta name="keywords" content="Nikhil Singh, AI Engineer, LangChain, LangGraph, RAG, Fine-tuning, Prompt Engineering, Full-Stack Developer, Next.js, FastAPI, Portfolio">
+  <meta name="author" content="Nikhil Singh">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nikhil Singh | Full-Stack & AI Engineer">
+  <meta property="og:description" content="Showcasing deep AI engineering expertise including LangChain, LangGraph, RAG pipelines, fine-tuning LLMs, and modern full-stack development.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/185071256?v=4">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/185071256?s=32&v=4">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Ambient Lights -->
+  <div class="ambient-glow"></div>
+
+  <!-- Header -->
+  <header id="desktop-header">
+    <div class="container nav-wrapper">
+      <a href="#hero" class="logo">
+        Nikhil<span class="logo-dot"></span>
+      </a>
+      <nav class="desktop-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#ai-stack" class="nav-link">AI Stack</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="status-indicator">
+        <span class="status-dot"></span>
+        <span>Active in LangGraph & RAG</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Bottom Navigation (Floating) -->
+  <nav class="mobile-nav" id="mobile-navigation">
+    <a href="#hero" class="mobile-nav-item active" data-section="hero">
+      <i class="fa-solid fa-house-chimney"></i>
+      <span>Home</span>
+    </a>
+    <a href="#journey" class="mobile-nav-item" data-section="journey">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>Journey</span>
+    </a>
+    <a href="#ai-stack" class="mobile-nav-item" data-section="ai-stack">
+      <i class="fa-solid fa-robot"></i>
+      <span>AI Stack</span>
+    </a>
+    <a href="#projects" class="mobile-nav-item" data-section="projects">
+      <i class="fa-solid fa-code"></i>
+      <span>Projects</span>
+    </a>
+    <a href="#contact" class="mobile-nav-item" data-section="contact">
+      <i class="fa-solid fa-paper-plane"></i>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <i class="fa-solid fa-bolt-lightning"></i>
+          <span>Welcome to my Tech Space</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-gradient">Nikhil Singh</span><br>
+          I build <span class="typewriter-container"><span id="typewriter-text"></span><span class="typewriter-cursor">|</span></span>
+        </h1>
+        <p class="hero-subtitle">
+          Computer Science graduate specializing in building production-ready **AI Agents (LangChain & LangGraph)**, robust **Retrieval-Augmented Generation (RAG)** pipelines, LLM fine-tuning, and modern full-stack web applications.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#ai-stack" class="btn btn-primary">
+            Explore AI Stack <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+        
+        <!-- Quick Stats Row -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num text-gradient">55+</span>
+            <span class="stat-label">GitHub Repos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num text-gradient-purple">200+ hrs</span>
+            <span class="stat-label">DSA Rigor</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num text-gradient-secondary">6+</span>
+            <span class="stat-label">Professional Certs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- B.Tech Journey Section -->
+  <section id="journey">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Academic Foundations</span>
+        <h2 class="section-title">My B.Tech Journey</h2>
+      </div>
+      
+      <div class="timeline">
+        <!-- B.Tech Graduation -->
+        <div class="timeline-item completed">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <span class="timeline-date">August 2021 – July 2025</span>
+            <h3 class="timeline-title">B.Tech in Computer Science & Engineering</h3>
+            <span class="timeline-org">Lloyd Institute of Engineering and Technology | Greater Noida, UP</span>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Acquired deep fundamentals in Data Structures & Algorithms (DSA), Operating Systems, Computer Networks, and Database Management. Built a strong analytical foundation for problem-solving.
+            </p>
+            <div class="timeline-tags">
+              <span>DSA</span>
+              <span>OS</span>
+              <span>DBMS</span>
+              <span>Computer Networks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Practical Competitions -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <span class="timeline-date">2023 - 2024</span>
+            <h3 class="timeline-title">Hackathons & Coding Competitions</h3>
+            <span class="timeline-org">LIET Competitive Hub</span>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Tested coding endurance in 24-hour marathons including **LIET Code-A-Thon** and **LIET Code-Farming**. Successfully solved algortihmic problems under pressure and collaborated in agile teams.
+            </p>
+            <div class="timeline-tags">
+              <span>Code-A-Thon</span>
+              <span>Code-Farming</span>
+              <span>Rapid Prototyping</span>
+              <span>Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- DSA Focus -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <span class="timeline-date">Continuous Learning</span>
+            <h3 class="timeline-title">Algorithmic Training & DSA Rigor</h3>
+            <span class="timeline-org">Self-Driven Mastery</span>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Completed **200+ hours** of intensive DSA training through workshops. Developed deep skills in optimized computing, dynamic programming, and system space/time complexity modeling. Active solver on LeetCode.
+            </p>
+            <div class="timeline-tags">
+              <span>Problem Solving</span>
+              <span>Space-Time Optimization</span>
+              <span>LeetCode Practice</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core AI Stack Explorer -->
+  <section id="ai-stack">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Post-Graduation Core Expertise</span>
+        <h2 class="section-title">Advanced AI Engineering</h2>
+      </div>
+
+      <div class="ai-stack-container">
+        <!-- Scrollable Tab Buttons -->
+        <div class="tab-buttons-scroll">
+          <button class="tab-btn active" onclick="switchTab('langchain', this)">LangChain</button>
+          <button class="tab-btn" onclick="switchTab('langgraph', this)">LangGraph</button>
+          <button class="tab-btn" onclick="switchTab('rag', this)">Advanced RAG</button>
+          <button class="tab-btn" onclick="switchTab('finetuning', this)">Fine-tuning</button>
+          <button class="tab-btn" onclick="switchTab('prompting', this)">Prompt & Context Eng.</button>
+        </div>
+
+        <!-- Tab Contents -->
+        <!-- LangChain -->
+        <div id="tab-langchain" class="tab-content active">
+          <div class="glass-card stack-detail-grid">
+            <div class="stack-meta">
+              <h3>Modular LLM Workflows with LangChain</h3>
+              <p>
+                Developing end-to-end applications by linking LLMs with vector stores, computation utilities, databases, and third-party APIs.
+              </p>
+              <ul class="stack-bullet-list">
+                <li><i class="fa-solid fa-circle-check"></i> <span>Custom chains and agents with robust memory architectures</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Document loading, recursive text splitters, and metadata extraction</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Structured output parsers and validation pipelines</span></li>
+              </ul>
+            </div>
+            <div class="code-window">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span class="code-dot-span red"></span>
+                  <span class="code-dot-span yellow"></span>
+                  <span class="code-dot-span green"></span>
+                </div>
+                <span class="code-lang">langchain_agent.py</span>
+              </div>
+              <div class="code-body">
+                <pre><code class="language-python">from langchain_openai import ChatOpenAI
+from langchain.agents import AgentExecutor, create_openai_tools_agent
+from langchain_core.prompts import ChatPromptTemplate
+
+# Initialize LLM and construct system prompt
+llm = ChatOpenAI(model="gpt-4o", temperature=0)
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a helpful assistant with tool access."),
+    ("placeholder", "{chat_history}"),
+    ("human", "{input}"),
+    ("placeholder", "{agent_scratchpad}"),
+])
+
+# Create tool agent and executor
+agent = create_openai_tools_agent(llm, tools, prompt)
+executor = AgentExecutor(agent=agent, tools=tools)
+response = executor.invoke({"input": "Query DB..."})</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LangGraph -->
+        <div id="tab-langgraph" class="tab-content">
+          <div class="glass-card stack-detail-grid">
+            <div class="stack-meta">
+              <h3>Cyclic Multi-Agent Agents with LangGraph</h3>
+              <p>
+                Building stateful, multi-actor applications by defining agentic interactions as graph structures with state nodes and conditional transitions.
+              </p>
+              <ul class="stack-bullet-list">
+                <li><i class="fa-solid fa-circle-check"></i> <span>State management, checkpointing, and time-travel persistence</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Human-in-the-loop validation and manual approval overrides</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Multi-agent collaboration (e.g. Planner -> Executor -> Reviewer)</span></li>
+              </ul>
+            </div>
+            <div class="code-window">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span class="code-dot-span red"></span>
+                  <span class="code-dot-span yellow"></span>
+                  <span class="code-dot-span green"></span>
+                </div>
+                <span class="code-lang">agent_graph.py</span>
+              </div>
+              <div class="code-body">
+                <pre><code class="language-python">from langgraph.graph import StateGraph, END
+from typing import TypedDict, List
+
+class AgentState(TypedDict):
+    messages: List[str]
+    needs_review: bool
+
+# Define workflow graph
+workflow = StateGraph(AgentState)
+workflow.add_node("agent", call_model)
+workflow.add_node("reviewer", human_check)
+
+workflow.set_entry_point("agent")
+workflow.add_conditional_edges(
+    "agent",
+    should_continue,
+    {"continue": "reviewer", "end": END}
+)
+workflow.add_edge("reviewer", "agent")
+app = workflow.compile()</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Advanced RAG -->
+        <div id="tab-rag" class="tab-content">
+          <div class="glass-card stack-detail-grid">
+            <div class="stack-meta">
+              <h3>High-Precision Retrieval-Augmented Generation</h3>
+              <p>
+                Optimizing search relevance and content validation to supply LLMs with precise context, eliminating hallucinations and factual errors.
+              </p>
+              <ul class="stack-bullet-list">
+                <li><i class="fa-solid fa-circle-check"></i> <span>Query translation: Multi-query, rewriting, and sub-queries</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Sentence-window retrieval & Parent-Document retrieval</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Cross-encoder reranking (Cohere Rerank) and vector quantization</span></li>
+              </ul>
+            </div>
+            <div class="code-window">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span class="code-dot-span red"></span>
+                  <span class="code-dot-span yellow"></span>
+                  <span class="code-dot-span green"></span>
+                </div>
+                <span class="code-lang">advanced_rag.py</span>
+              </div>
+              <div class="code-body">
+                <pre><code class="language-python">from langchain_community.vectorstores import Chroma
+from langchain.retrievers import ParentDocumentRetriever
+from langchain.storage import InMemoryStore
+
+# Create hierarchical parent-child retriever
+store = InMemoryStore()
+retriever = ParentDocumentRetriever(
+    vectorstore=Chroma(embedding_function=embeddings),
+    docstore=store,
+    child_splitter=RecursiveCharacterTextSplitter(chunk_size=400),
+    parent_splitter=RecursiveCharacterTextSplitter(chunk_size=2000),
+)
+retriever.add_documents(documents)
+# Yields high context resolution with low search noise</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fine-tuning -->
+        <div id="tab-finetuning" class="tab-content">
+          <div class="glass-card stack-detail-grid">
+            <div class="stack-meta">
+              <h3>LLM Customization & Downstream Fine-tuning</h3>
+              <p>
+                Adapting open-source foundational models (Llama-3, Mistral, Qwen) to follow strict formatting guidelines, domains, and custom APIs.
+              </p>
+              <ul class="stack-bullet-list">
+                <li><i class="fa-solid fa-circle-check"></i> <span>Parameter-Efficient Fine-Tuning: LoRA, QLoRA adapters</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Dataset curation, tokenization masking, and instruction formatting</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Performance optimization using Unsloth, Hugging Face TRL, and Axolotl</span></li>
+              </ul>
+            </div>
+            <div class="code-window">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span class="code-dot-span red"></span>
+                  <span class="code-dot-span yellow"></span>
+                  <span class="code-dot-span green"></span>
+                </div>
+                <span class="code-lang">qlora_training.py</span>
+              </div>
+              <div class="code-body">
+                <pre><code class="language-python">from peft import LoraConfig, get_peft_model
+from transformers import AutoModelForCausalLM, TrainingArguments
+from trl import SFTTrainer
+
+# Load and configure QLoRA
+model = AutoModelForCausalLM.from_pretrained(
+    "meta-llama/Meta-Llama-3-8B-Instruct", 
+    quantization_config=bnb_config
+)
+peft_config = LoraConfig(
+    r=16, lora_alpha=32, target_modules=["q_proj", "v_proj"], 
+    bias="none", task_type="CAUSAL_LM"
+)
+model = get_peft_model(model, peft_config)
+# Configure SFTTrainer for custom instructions...</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prompt/Context Eng. -->
+        <div id="tab-prompting" class="tab-content">
+          <div class="glass-card stack-detail-grid">
+            <div class="stack-meta">
+              <h3>Prompt Optimization & Context Management</h3>
+              <p>
+                Designing systematic, programmatically controlled prompts and managing context sizes to achieve latency-efficient processing.
+              </p>
+              <ul class="stack-bullet-list">
+                <li><i class="fa-solid fa-circle-check"></i> <span>Structured prompting patterns: CoT, ReAct, Few-Shot compiler</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Algorithmic prompting compilation using DSPy</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Context compression and token filtering using LLMLingua</span></li>
+              </ul>
+            </div>
+            <div class="code-window">
+              <div class="code-header">
+                <div class="code-dots">
+                  <span class="code-dot-span red"></span>
+                  <span class="code-dot-span yellow"></span>
+                  <span class="code-dot-span green"></span>
+                </div>
+                <span class="code-lang">dspy_compile.py</span>
+              </div>
+              <div class="code-body">
+                <pre><code class="language-python">import dspy
+
+class RAG(dspy.Module):
+    def __init__(self):
+        super().__init__()
+        self.retrieve = dspy.Retrieve(k=3)
+        self.generate_answer = dspy.Predict(AnswerSignature)
+        
+    def forward(self, question):
+        context = self.retrieve(question).passages
+        prediction = self.generate_answer(context=context, question=question)
+        return dspy.Prediction(context=context, answer=prediction.answer)
+
+# Optimizes prompts automatically based on validation datasets</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Simulator Widget -->
+      <div class="glass-card simulator-card">
+        <div class="simulator-header">
+          <div class="simulator-title">
+            <i class="fa-solid fa-route text-gradient"></i>
+            <span>Interactive RAG Pipeline & Multi-Agent Simulator</span>
+          </div>
+          <span class="badge badge-purple" id="sim-type-badge">Advanced RAG Mode</span>
+        </div>
+        
+        <div class="simulator-canvas">
+          <!-- Connector Lines SVG -->
+          <svg class="sim-svg-overlay" id="sim-svg">
+            <!-- RAG Lines -->
+            <path id="path-0" d="M 0 0" class="sim-path"></path>
+            <path id="path-1" d="M 0 0" class="sim-path"></path>
+            <path id="path-2" d="M 0 0" class="sim-path"></path>
+            <path id="path-3" d="M 0 0" class="sim-path"></path>
+            <!-- Animated Active Line -->
+            <path id="active-line" d="M 0 0" class="sim-path-active"></path>
+          </svg>
+
+          <!-- Nodes (Will be dynamically aligned/measured via JS) -->
+          <div class="sim-node active" id="node-0">
+            <div class="sim-node-icon"><i class="fa-solid fa-keyboard"></i></div>
+            <span class="sim-node-label">User Query</span>
+          </div>
+          <div class="sim-node" id="node-1">
+            <div class="sim-node-icon"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></div>
+            <span class="sim-node-label">Vector Store</span>
+          </div>
+          <div class="sim-node" id="node-2">
+            <div class="sim-node-icon"><i class="fa-solid fa-filter"></i></div>
+            <span class="sim-node-label">Reranking</span>
+          </div>
+          <div class="sim-node" id="node-3">
+            <div class="sim-node-icon"><i class="fa-solid fa-microchip"></i></div>
+            <span class="sim-node-label">LLM Context</span>
+          </div>
+          <div class="sim-node" id="node-4">
+            <div class="sim-node-icon"><i class="fa-solid fa-message"></i></div>
+            <span class="sim-node-label">Final Answer</span>
+          </div>
+        </div>
+
+        <div class="sim-controls">
+          <div class="sim-status-box">
+            <strong class="text-gradient">Step 1:</strong> <span id="sim-status-text">Waiting to run pipeline execution... Click 'Step Forward'.</span>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-secondary" onclick="resetSim()" style="padding: 10px 16px; min-height: 40px; font-size: 0.8rem;">Reset</button>
+            <button class="btn btn-primary" id="btn-next-step" onclick="nextSimStep()" style="padding: 10px 16px; min-height: 40px; font-size: 0.8rem;">Step Forward</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Proven Work & Implementations</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-container" id="projects-carousel">
+        <!-- Pooja Chatbot -->
+        <div class="glass-card project-card">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fa-solid fa-om"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/nikk2511/pooja-chatbot" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+              <a href="https://pooja-chatbot.vercel.app" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">AI Chatbot for Pooja</h3>
+            <p class="project-desc">
+              Context-aware religious & rituals assistant powered by Retrieval-Augmented Generation (RAG). Handles complex queries using semantic search across structured texts.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> <span>RAG pipeline over 1,000+ ritual guides</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>FastAPI backend for high-throughput responses</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>30% accuracy lift via embedding-tuned retrieval</span></li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>FastAPI</span>
+            <span>Next.js</span>
+            <span>LangChain</span>
+            <span>Chroma VectorDB</span>
+            <span>OpenAI API</span>
+          </div>
+        </div>
+
+        <!-- Anon Chat -->
+        <div class="glass-card project-card">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fa-solid fa-mask"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/nikk2511/anon-chat" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+              <a href="https://whispr-self.vercel.app" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Anon Chat Messaging</h3>
+            <p class="project-desc">
+              Anonymous messaging and real-time feedback collection application. Designed with security guidelines, secure credential verification, and responsive UX.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> <span>NextAuth credentials & OAuth integration</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Clean, interactive messaging walls</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Optimized MongoDB query design</span></li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>NextAuth.js</span>
+            <span>MongoDB</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+
+        <!-- Whispr -->
+        <div class="glass-card project-card">
+          <div class="project-card-header">
+            <div class="project-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/nikk2511/whispr" target="_blank" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+              <a href="https://whispr-self.vercel.app" target="_blank" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Whispr Interactive</h3>
+            <p class="project-desc">
+              A visually premium, highly responsive user space showcasing smooth user experience frameworks, custom interactive UI nodes, and motion physics.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> <span>Fluid transitions using Framer Motion</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Fully responsive grid layouts</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>SEO optimized server-side rendering</span></li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>Framer Motion</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Indicators -->
+      <div class="carousel-indicators">
+        <span class="indicator active" onclick="jumpCarousel(0)"></span>
+        <span class="indicator" onclick="jumpCarousel(1)"></span>
+        <span class="indicator" onclick="jumpCarousel(2)"></span>
+      </div>
+
+      <!-- Virtual AI Assistant Chat Box -->
+      <div class="glass-card chat-card" style="margin-top: 50px;">
+        <div class="chat-header">
+          <div class="chat-agent-info">
+            <div class="chat-avatar">N</div>
+            <div>
+              <span class="chat-agent-name">Nikhil's Virtual Agent</span>
+              <span class="chat-agent-status">Online • Ask me anything</span>
+            </div>
+          </div>
+          <i class="fa-solid fa-circle-nodes text-gradient" style="font-size: 1.25rem;"></i>
+        </div>
+        
+        <div class="chat-messages" id="chat-box-container">
+          <div class="chat-bubble bot">
+            Hello! I'm Nikhil's virtual assistant. I can tell you about his B.Tech, LangChain & LangGraph expertise, or RAG projects. What would you like to know?
+          </div>
+        </div>
+
+        <div class="chat-input-area">
+          <div class="chat-quick-replies">
+            <button class="quick-reply-btn" onclick="sendQuickReply('Tell me about your B.Tech journey')">🎓 B.Tech Journey</button>
+            <button class="quick-reply-btn" onclick="sendQuickReply('What are your skills in LangChain/LangGraph?')">🤖 Agent Skills</button>
+            <button class="quick-reply-btn" onclick="sendQuickReply('Show me your RAG projects')">🔍 RAG Projects</button>
+            <button class="quick-reply-btn" onclick="sendQuickReply('What certifications do you hold?')">🏅 Certifications</button>
+          </div>
+          
+          <form class="chat-form" id="chat-form-submit" onsubmit="handleChatSubmit(event)">
+            <input type="text" placeholder="Type a message..." class="chat-input" id="chat-user-input" required>
+            <button class="chat-send-btn" type="submit" aria-label="Send Message"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Achievements Section -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Credential Verification</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
+      <div class="certifications-grid">
+        <!-- IBM Full-Stack Software Developer -->
+        <div class="glass-card cert-card">
+          <div class="cert-badge-icon" style="color: #0f62fe;"><i class="fa-brands fa-ibm"></i></div>
+          <div class="cert-info">
+            <h4>IBM Full-Stack Software Developer</h4>
+            <p class="text-muted">Cloud architecture, container orchestration, microservices & backend networks.</p>
+          </div>
+        </div>
+
+        <!-- Postman API Fundamentals -->
+        <div class="glass-card cert-card">
+          <div class="cert-badge-icon" style="color: #ff6c37;"><i class="fa-solid fa-paper-plane"></i></div>
+          <div class="cert-info">
+            <h4>Postman API Fundamentals</h4>
+            <p class="text-muted">API design, integration patterns, request validation, and automated testing.</p>
+          </div>
+        </div>
+
+        <!-- freeCodeCamp Responsive Web Design -->
+        <div class="glass-card cert-card">
+          <div class="cert-badge-icon" style="color: #0a0a23;"><i class="fa-brands fa-freecodecamp"></i></div>
+          <div class="cert-info">
+            <h4>Responsive Web Design</h4>
+            <p class="text-muted">Mobile-first design architectures, modern responsive grid layouts, and clean CSS.</p>
+          </div>
+        </div>
+
+        <!-- IBM DevOps and Software Engineering -->
+        <div class="glass-card cert-card">
+          <div class="cert-badge-icon" style="color: #0f62fe;"><i class="fa-solid fa-infinity"></i></div>
+          <div class="cert-info">
+            <h4>IBM DevOps & Software Engineering</h4>
+            <p class="text-muted">CI/CD automation pipelines, infrastructure-as-code (Terraform), and secure builds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Contact & Networks</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Collaborate</h3>
+          <p>
+            Interested in building advanced Multi-Agent frameworks, optimizing RAG retrieval configurations, or exploring full-stack engineering integrations? Let's connect!
+          </p>
+          
+          <div class="contact-method">
+            <div class="contact-method-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-method-text">
+              <span>Email</span>
+              <a href="mailto:nikhilsingh.work25@gmail.com" class="text-gradient">nikhilsingh.work25@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-method-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="contact-method-text">
+              <span>LinkedIn</span>
+              <a href="https://linkedin.com" target="_blank">linkedin.com/in/nikhil-singh</a>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/nikk2511" target="_blank" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:nikhilsingh.work25@gmail.com" class="social-btn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="glass-card contact-form-card">
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-control" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" class="form-control" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="form-subject" class="form-label">Subject</label>
+              <input type="text" id="form-subject" class="form-control" placeholder="AI Agent Project Discussion" required>
+            </div>
+            <div class="form-group">
+              <label for="form-message" class="form-label">Message</label>
+              <textarea id="form-message" class="form-control" placeholder="Hello Nikhil, let's connect to discuss..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p id="form-status" style="margin-top: 12px; font-size: 0.85rem; text-align: center; display: none;"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="footer-text">
+        © 2026 Nikhil Singh. Built with Vanilla Web Tech.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
