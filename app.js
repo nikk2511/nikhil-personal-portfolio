@@ -380,7 +380,7 @@ function showChatTyping(visible) {
   }
 }
 
-// Contact Form Handler (Mock Submission)
+// Contact Form Handler (EmailJS Integration)
 function handleFormSubmit(e) {
   e.preventDefault();
 
@@ -396,15 +396,27 @@ function handleFormSubmit(e) {
   status.style.color = "var(--color-cyan)";
   status.innerHTML = "<i class='fa-solid fa-spinner fa-spin'></i> Submitting message securely...";
 
-  // Simulate server post
-  setTimeout(() => {
-    status.style.color = "#10b981";
-    status.innerHTML = "<i class='fa-solid fa-check-double'></i> Thank you! Your message was sent successfully to Nikhil.";
-    document.getElementById("contact-form").reset();
-    
-    // Hide status after 5s
-    setTimeout(() => {
-      status.style.display = "none";
-    }, 5000);
-  }, 1500);
+  const templateParams = {
+    name: name,
+    email: email,
+    subject: subject,
+    message: message
+  };
+
+  emailjs.send('service_ct568zs', 'siaykk4', templateParams)
+    .then(() => {
+      status.style.color = "#10b981";
+      status.innerHTML = "<i class='fa-solid fa-check-double'></i> Thank you! Your message was sent successfully to Nikhil.";
+      document.getElementById("contact-form").reset();
+      
+      // Hide status after 5s
+      setTimeout(() => {
+        status.style.display = "none";
+      }, 5000);
+    })
+    .catch((error) => {
+      status.style.color = "#ef4444";
+      status.innerHTML = "<i class='fa-solid fa-triangle-exclamation'></i> Failed to send message. Please try again or email directly.";
+      console.error("EmailJS Error:", error);
+    });
 }
